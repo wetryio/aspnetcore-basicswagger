@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>aspnetcore_basicswagger</name>
+    </assembly>
+    <members>
+        <member name="T:AspnetCoreBasicSwagger.Controllers.ValuesController">
+            <summary>
+            Test Comment For Controller
+            </summary>
+        </member>
+        <member name="M:AspnetCoreBasicSwagger.Controllers.ValuesController.Get">
+            <summary>
+            This method use the comment
+            </summary>
+            <returns>Return an array of string.</returns>
+            <response code="200">Return an array of string.</response>
+            <response code="500">Service unavailable.</response>
+            <response code="403">Service unauthorize.</response>
+        </member>
+    </members>
+</doc>
